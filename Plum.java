@@ -1,0 +1,9 @@
+class Plum {
+	public static void main (String Bindu []){
+		System.out.println("Brightens from First Use : Experience the power of the plum niacinamide face serum from the very first drop! It helps fade blemishes, reduce dullness, and promote a bright & even skin tone. One of the best face brightening serum for women and men, it delivers clear, even-toned skin without irritation.");
+		System.out.println("2x Hydration with Rice Water & Squalane : This skin brightening serum is enriched with niacinamide, rice water, olive-derived squalane, and vitamin E, making it a hydrating serum that deeply nourishes and softens your skin. It’s clinically proven to deliver 2x instant hydration, making it one of the best niacinamide serums, if your skin craves hydration.");
+		System.out.println("Smooth, Clear, and Even Skin : More than just a brightening serum, this formula helps refine texture and balance oil with ingredients like licorice extract and niacinamide. Whether you need a niacinamide serum for oily skin or a niacinamide serum for combination skin, this face serum should be your first choice.");
+		System.out.println("Mess-Free Pump, Milky Texture : The sleek pump design makes this Plum 10% Niacinamide Serum with Rice Water easy to use — no spills or waste! Its lightweight, milky texture absorbs quickly into the skin, leaving no greasiness behind.");
+		System.out.println("For All Skin Types, Every Day : Gentle yet effective, this Plum Niacinamide Serum suits everyone, from those with acne-prone skin to those seeking a niacinamide serum for dry skin or oily skin. Whether you're new to actives or a skincare pro, this Plum rice water serum will give you brighter skin with every pump, every day.");
+	}
+}
