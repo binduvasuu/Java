@@ -1,42 +1,16 @@
 class LenskartUser {
-
-    static String fullName;
-    static String emailId;
-    static long mobileNumber;
-    static String password;
-    static String city;
-    static String eyePower;
-
+    static String fullName = "Bindu KV";
+    static String emailId = "bindu11@gmail.com";
+    static long mobileNumber = 6549831579L;
+    static String password = "12345";
+    static String city = "Bengaluru";
+    static String eyePower = "-1.50";
     public static void main(String bindu[]) {
-
-        fullName = "Bindu KV";
-        emailId = "bindu11@gmail.com";
-        mobileNumber = 6549831579L;
-        password = "12345";
-        city = "Bengaluru";
-        eyePower = "-1.50";
-
-        System.out.println("The Full Name is " + fullName);
-        System.out.println("The Email ID is " + emailId);
-        System.out.println("The Mobile Number is " + mobileNumber);
-        System.out.println("The Password is " + password);
-        System.out.println("The City is " + city);
-        System.out.println("The Eye Power is " + eyePower);
-
-        System.out.println("The updated data is ");
-
-        fullName = "Bhuvi Rao";
-        emailId = "bhuvi.rao@gmail.com";
-        mobileNumber = 9876543210L;
-        password = "bhuvi@2026";
-        city = "Chennai";
-        eyePower = "-2.00";
-
-        System.out.println("The Full Name is " + fullName);
-        System.out.println("The Email ID is " + emailId);
-        System.out.println("The Mobile Number is " + mobileNumber);
-        System.out.println("The Password is " + password);
-        System.out.println("The City is " + city);
-        System.out.println("The Eye Power is " + eyePower);
+    System.out.println("Full Name is " + fullName);
+    System.out.println("Email ID is " + emailId);
+    System.out.println("Mobile Number is " + mobileNumber);
+    System.out.println("Password is " + password);
+    System.out.println("City is " + city);
+    System.out.println("Eye Power is " + eyePower);
     }
 }

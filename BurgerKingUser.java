@@ -1,47 +1,17 @@
 class BurgerKingUser {
-
-    static String fullName;
-    static String mobileNumber;
-    static String emailId;
-    static String password;
-    static String address;
-    static String paymentMethod;
-    static boolean receiveOffers;
-
-    public static void main(String bindu[]) {
-
-        fullName = "Bindu KV";
-        mobileNumber = "6549831579";
-        emailId = "bindu11@gmail.com";
-        password = "Bindu@123";
-        address = "Bengaluru";
-        paymentMethod = "UPI";
-        receiveOffers = true;
-
-        System.out.println("The Full Name is " + fullName);
-        System.out.println("The Mobile Number is " + mobileNumber);
-        System.out.println("The Email ID is " + emailId);
-        System.out.println("The Password is " + password);
-        System.out.println("The Address is " + address);
-        System.out.println("The Payment Method is " + paymentMethod);
-        System.out.println("Receive Offers and Notifications: " + receiveOffers);
-
-        System.out.println("The updated data is ");
-
-        fullName = "Bhuvi KV";
-        mobileNumber = "9876543210";
-        emailId = "bhuvi11@gmail.com";
-        password = "Bhuvi@456";
-        address = "Mysuru";
-        paymentMethod = "Credit Card";
-        receiveOffers = false;
-
-        System.out.println("The Full Name is " + fullName);
-        System.out.println("The Mobile Number is " + mobileNumber);
-        System.out.println("The Email ID is " + emailId);
-        System.out.println("The Password is " + password);
-        System.out.println("The Address is " + address);
-        System.out.println("The Payment Method is " + paymentMethod);
-        System.out.println("Receive Offers and Notifications: " + receiveOffers);
-    }
+	static String fullName = "Bindu";
+	static String emailId = "bindu11@gmail.com";
+	static long mobileNo = 9876549864l;
+	static String password = "bindu11";
+	static String address = "Bangalore";
+	static String paymentMethod = "UPI";
+	static boolean offers = true;
+	public static void main (String bindu[]) {
+	System.out.println("Fullname is " + fullName);
+	System.out.println("Email is " + emailId);
+	System.out.println("MobileNo is " + mobileNo);
+	System.out.println("Address is " + address);
+	System.out.println("Payment method is " + paymentMethod);
+	System.out.println("Receving offer is " + offers);
+	}
 }

@@ -1,44 +1,16 @@
 class TruecallerUser {
-
-    static String fullName;
-    static String mobileNumber;
-    static String emailId;
-    static String password;
-    static String country;
-    static boolean receiveNotifications;
-
+    static String fullName = "Bindu KV";
+    static String mobileNumber = "6549831579";
+    static String emailId = "bindu11@gmail.com";
+    static String password = "12345";
+    static String country = "India";
+    static boolean receiveNotifications = true;
     public static void main(String bindu[]) {
-
-        fullName = "Bindu";
-        mobileNumber = "9876543210";
-        emailId = "arjun@gmail.com";
-        password = "Arjun@123";
-        country = "India";
-        receiveNotifications = true;
-
-        System.out.println("The Full Name is " + fullName);
-        System.out.println("The Mobile Number is " + mobileNumber);
-        System.out.println("The Email ID is " + emailId);
-        System.out.println("The Password is " + password);
-        System.out.println("The Country is " + country);
-        System.out.println("Receive Notifications: " + receiveNotifications);
-
-        
-
-        System.out.println("The updated data is ");
-
-        fullName = "Priya";
-        mobileNumber = "9123456789";
-        emailId = "priya@gmail.com";
-        password = "Priya@456";
-        country = "Singapore";
-        receiveNotifications = false;
-
-        System.out.println("The Full Name is " + fullName);
-        System.out.println("The Mobile Number is " + mobileNumber);
-        System.out.println("The Email ID is " + emailId);
-        System.out.println("The Password is " + password);
-        System.out.println("The Country is " + country);
-        System.out.println("Receive Notifications: " + receiveNotifications);
+    System.out.println("Full Name is " + fullName);
+    System.out.println("Mobile Number is " + mobileNumber);
+    System.out.println("Email ID is " + emailId);
+    System.out.println("Password is " + password);
+    System.out.println("Country is " + country);
+    System.out.println("Receive Notifications: " + receiveNotifications);
     }
 }

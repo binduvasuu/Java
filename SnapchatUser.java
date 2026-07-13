@@ -1,49 +1,18 @@
 class SnapchatUser {
-
-    static String firstName;
-    static String lastName;
-    static String month;
-    static int day;
-    static int year;
-    static String userName;
-    static String password;
-
+    static String firstName = "Bindu";
+    static String lastName = "KV";
+    static String month = "April";
+    static int day = 11;
+    static int year = 2004;
+    static String userName = "bindu11";
+    static String password = "12345";
     public static void main(String bindu[]) {
-
-        firstName = "Rahul";
-        lastName = "sharma";
-        month = "January";
-        day = 5;
-        year = 2001;
-        userName = "rahul01";
-        password = "rahul@123";
-
-        System.out.println("The First Name is " + firstName);
-        System.out.println("The Last Name is " + lastName);
-        System.out.println("The Birth Month is " + month);
-        System.out.println("The Birth Day is " + day);
-        System.out.println("The Birth Year is " + year);
-        System.out.println("The Username is " + userName);
-        System.out.println("The Password is " + password);
-
-        
-
-        System.out.println("The updated data is ");
-
-        firstName = "Sneha";
-        lastName = "Reddy";
-        month = "September";
-        day = 18;
-        year = 2003;
-        userName = "sneha18";
-        password = "sneha@456";
-
-        System.out.println("The First Name is " + firstName);
-        System.out.println("The Last Name is " + lastName);
-        System.out.println("The Birth Month is " + month);
-        System.out.println("The Birth Day is " + day);
-        System.out.println("The Birth Year is " + year);
-        System.out.println("The Username is " + userName);
-        System.out.println("The Password is " + password);
+    System.out.println("First Name is " + firstName);
+    System.out.println("Last Name is " + lastName);
+    System.out.println("Birth Month is " + month);
+    System.out.println("Birth Day is " + day);
+    System.out.println("Birth Year is " + year);
+    System.out.println("Username is " + userName);
+    System.out.println("Password is " + password);
     }
 }

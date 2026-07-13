@@ -1,57 +1,22 @@
 class PizzaHutUser {
-
-    static String fullName;
-    static String emailId;
-    static String password;
-    static String confirmPassword;
-    static long mobileNumber;
-    static String address;
-    static String city;
-    static String state;
-    static boolean receiveOffers;
-
+    static String fullName = "Bindu KV";
+    static String emailId = "bindu11@gmail.com";
+    static String password = "12345";
+    static String confirmPassword = "12345";
+    static long mobileNumber = 6549831579L;
+    static String address = "Bengaluru";
+    static String city = "Bengaluru";
+    static String state = "Karnataka";
+    static boolean receiveOffers = true;
     public static void main(String bindu[]) {
-
-        fullName = "Bindu KV";
-        emailId = "bindu11@gmail.com";
-        password = "Bindu@123";
-        confirmPassword = "Bindu@123";
-        mobileNumber = 6549831579L;
-        address = "BTM Layout";
-        city = "Bengaluru";
-        state = "Karnataka";
-        receiveOffers = true;
-
-        System.out.println("The Full Name is " + fullName);
-        System.out.println("The Email ID is " + emailId);
-        System.out.println("The Password is " + password);
-        System.out.println("The Confirm Password is " + confirmPassword);
-        System.out.println("The Mobile Number is " + mobileNumber);
-        System.out.println("The Address is " + address);
-        System.out.println("The City is " + city);
-        System.out.println("The State is " + state);
-        System.out.println("Receive Offers and Notifications: " + receiveOffers);
-
-        System.out.println("The updated data is ");
-
-        fullName = "Bhuvi KV";
-        emailId = "bhuvi11@gmail.com";
-        password = "Bhuvi@456";
-        confirmPassword = "Bhuvi@456";
-        mobileNumber = 9876543210L;
-        address = "Jayanagar";
-        city = "Mysuru";
-        state = "Karnataka";
-        receiveOffers = false;
-
-        System.out.println("The Full Name is " + fullName);
-        System.out.println("The Email ID is " + emailId);
-        System.out.println("The Password is " + password);
-        System.out.println("The Confirm Password is " + confirmPassword);
-        System.out.println("The Mobile Number is " + mobileNumber);
-        System.out.println("The Address is " + address);
-        System.out.println("The City is " + city);
-        System.out.println("The State is " + state);
-        System.out.println("Receive Offers and Notifications: " + receiveOffers);
+    System.out.println("Full Name is " + fullName);
+    System.out.println("Email ID is " + emailId);
+    System.out.println("Password is " + password);
+    System.out.println("Confirm Password is " + confirmPassword);
+    System.out.println("Mobile Number is " + mobileNumber);
+    System.out.println("Address is " + address);
+    System.out.println("City is " + city);
+    System.out.println("State is " + state);
+    System.out.println("Receive Offers and Notifications: " + receiveOffers);
     }
 }
