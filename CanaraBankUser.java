@@ -1,19 +1,20 @@
 class CanaraBankUser {
-	static long accountNo = 456987265487l;
-	static long debitCardNo = 3659784695l;
-	static long mobileNo = 96587465698l;
-	static String customerId = "Cust123";
-	static String debitTransactions = "56987";
-	static String creditTransactions = "56874";
-	static String captcha = "Hi75w";
-	static boolean imageCaptcha = true;
-	public static void main (String bindu[]) {
-	System.out.println("Account No is " + accountNo);
-	System.out.println("Debit card No is " + debitCardNo);
-	System.out.println("Mobile NO is " + mobileNo);
-	System.out.println("Debitcard Transactions " + debitTransactions);
-	System.out.println("Creditcard Transactions " + creditTransactions);
-	System.out.println("Captcha is " + captcha);
-	System.out.println("Image captcha is " + imageCaptcha);
+	public static void main(String bindu[]) {
+		long accountNumber = 123456789012L;
+		long debitCardNumber = 5678123412345678L;
+		long registeredMobileNumber = 6549831579L;
+		String customerId = "CUST12345";
+		String debitTransactions = "9876";
+		String creditTransactions = "5432";
+		String captcha = "J8WT7";
+		boolean imageCaptcha = true;
+		System.out.println("The Account Number is " + accountNumber);
+		System.out.println("The Debit Card Number is " + debitCardNumber);
+		System.out.println("The Registered Mobile Number is " + registeredMobileNumber);
+		System.out.println("The Customer ID is " + customerId);
+		System.out.println("The Debit Transactions are " + debitTransactions);
+		System.out.println("The Credit Transactions are " + creditTransactions);
+		System.out.println("The Captcha is " + captcha);
+		System.out.println("Image Captcha Selected: " + imageCaptcha);
 	}
 }

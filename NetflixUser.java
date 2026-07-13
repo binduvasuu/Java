@@ -1,16 +1,16 @@
 class NetflixUser {
-    static String emailId = "bindu11@gmail.com";
-    static String password = "12345";
-    static String plan = "Premium";
-    static String mobileNumber = "6549831579";
-    static String paymentMethod = "UPI";
-    static boolean autoRenewal = true;
-    public static void main(String bindu[]) {
-    System.out.println("Email ID is " + emailId);
-    System.out.println("Password is " + password);
-    System.out.println("Plan is " + plan);
-    System.out.println("Mobile Number is " + mobileNumber);
-    System.out.println("Payment Method is " + paymentMethod);
-    System.out.println("Auto Renewal Enabled: " + autoRenewal);
-    }
+	public static void main(String bindu[]) {
+		String emailId = "bindu11@gmail.com";
+		String password = "12345";
+		String plan = "Premium";
+		String mobileNumber = "6549831579";
+		String paymentMethod = "UPI";
+		boolean autoRenewal = true;
+		System.out.println("The Email ID is " + emailId);
+		System.out.println("The Password is " + password);
+		System.out.println("The Plan is " + plan);
+		System.out.println("The Mobile Number is " + mobileNumber);
+		System.out.println("The Payment Method is " + paymentMethod);
+		System.out.println("Auto Renewal Enabled: " + autoRenewal);
+	}
 }

@@ -1,12 +1,12 @@
 class IndigoUser {
-    static String name = "Bindu KV";
-    static String email = "bindu11@gmail.com";
-    static String captchaText = "ABCD123";
-    static boolean captchaVerified = true;
-    public static void main(String bindu[]) {
-    System.out.println("Name is " + name);
-    System.out.println("Email is " + email);
-    System.out.println("Captcha Text is " + captchaText);
-    System.out.println("Captcha Verified: " + captchaVerified);
-    }
+	public static void main(String bindu[]) {
+		String name = "Bindu KV";
+		String email = "bindu11@gmail.com";
+		String captchaText = "ABCD123";
+		boolean captchaVerified = true;
+		System.out.println("The Name is " + name);
+		System.out.println("The Email is " + email);
+		System.out.println("The Captcha Text is " + captchaText);
+		System.out.println("Captcha Verified: " + captchaVerified);
+	}
 }
