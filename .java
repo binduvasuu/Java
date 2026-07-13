@@ -1,0 +1,50 @@
+class CameraLens {
+    public static void main(String args[]) {
+        String lens = "Fisheye";
+        String lensDesign = "Prime";
+        String compatibleDevices = "Cellular Phones, Tablet";
+        String brandName = "TEZINICX";
+        String modelName = "dslr camera lens";
+        String manufacturerPartNumber = "dslr camera lens";
+        String modelNumber = "dslr camera lens";
+        String packerContact = "TEZINICX";
+        String countryOfOrigin = "India";
+        String itemTypeName = "CLIP LENS";
+        String manufacturer = "TEZINICX";
+        String boxContents = "LENS";
+        String warrantyDescription = "365 Days Replacement Warranty";
+        String asin = "B0H3FJVG84";
+        double maxFocalLength = 1;
+        double minFocalLength = 1;
+        double maxAperture = 1;
+        double minAperture = 1;
+        int unitCount = 1;
+        int itemWeight = 55;
+        int price = 179;
+        int bestSellerRankElectronics = 6314;
+        int bestSellerRankLensKits = 5;
+        System.out.println("Lens Type: " + lens);
+        System.out.println("Lens Design: " + lensDesign);
+        System.out.println("Compatible Devices: " + compatibleDevices);
+        System.out.println("Brand Name: " + brandName);
+        System.out.println("Model Name: " + modelName);
+        System.out.println("Manufacturer Part Number: " + manufacturerPartNumber);
+        System.out.println("Model Number: " + modelNumber);
+        System.out.println("Packer Contact: " + packerContact);
+        System.out.println("Country of Origin: " + countryOfOrigin);
+        System.out.println("Item Type Name: " + itemTypeName);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Box Contents: " + boxContents);
+        System.out.println("Warranty Description: " + warrantyDescription);
+        System.out.println("ASIN: " + asin);
+        System.out.println("Maximum Focal Length: " + maxFocalLength);
+        System.out.println("Minimum Focal Length: " + minFocalLength);
+        System.out.println("Maximum Aperture: " + maxAperture + " mm");
+        System.out.println("Minimum Aperture: " + minAperture + " mm");
+        System.out.println("Unit Count: " + unitCount);
+        System.out.println("Item Weight: " + itemWeight + " grams");
+        System.out.println("Best Seller Rank (Electronics): #" + bestSellerRankElectronics);
+        System.out.println("Best Seller Rank (Lens Kits): #" + bestSellerRankLensKits);
+        System.out.println("Price: " + price);
+    }
+}

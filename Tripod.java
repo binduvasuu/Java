@@ -1,0 +1,56 @@
+class Tripod {
+    public static void main(String args[]) {
+        String brandName = "eucos";
+        String manufacturer = "eucos";
+        String upc = "611308718889";
+        String countryOfOrigin = "China";
+        String itemTypeName = "SELFIE STICK TRIPOD STAND";
+        String warrantyDescription = "10 Year Manufacture";
+        String importerContact = "SAMPATTI VENTURES PRIVATE LIMITED, Chembur, Mumbai, Maharashtra, EUCOS_INDIA@OUTLOOK.COM";
+        String packerContact = "SAMPATTI VENTURES PRIVATE LIMITED, Chembur, Mumbai, Maharashtra, EUCOS_INDIA@OUTLOOK.COM";
+        String boxContents = "EUCOS Phone Tripod, Vertical Phone Mount, Remote";
+        String asin = "B0FM8C47F6";
+        String customerReviews = "4.4 out of 5 stars (20,898)";
+        String colour = "Inferno Mix Carbon Black";
+        String compatibleDevices = "iPhone/Android";
+        String productFeatures = "Remote Control";
+        String headType = "Gimbal Heads";
+        String enclosureMaterial = "Aluminium, Modified Nylon PA6/6";
+        String videoFormat = "MP4";
+        String audioRecording = "No";
+        String waterResistance = "Not Water Resistant";
+        String viewfinderType = "LCD screen";
+        String itemDimensions = "5.8D x 5.8W x 42.8H Centimeters";
+        String foldedSize = "62 inches";
+        double itemWeight = 1.08;
+        double maxHeight = 62;
+        double minHeight = 62;
+        int price = 299;
+        System.out.println("Brand Name: " + brandName);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("UPC: " + upc);
+        System.out.println("Country of Origin: " + countryOfOrigin);
+        System.out.println("Item Type Name: " + itemTypeName);
+        System.out.println("Warranty Description: " + warrantyDescription);
+        System.out.println("Importer Contact: " + importerContact);
+        System.out.println("Packer Contact: " + packerContact);
+        System.out.println("Box Contents: " + boxContents);
+        System.out.println("ASIN: " + asin);
+        System.out.println("Customer Reviews: " + customerReviews);
+        System.out.println("Colour: " + colour);
+        System.out.println("Compatible Devices: " + compatibleDevices);
+        System.out.println("Product Features: " + productFeatures);
+        System.out.println("Head Type: " + headType);
+        System.out.println("Enclosure Material: " + enclosureMaterial);
+        System.out.println("Video Format: " + videoFormat);
+        System.out.println("Audio Recording: " + audioRecording);
+        System.out.println("Water Resistance: " + waterResistance);
+        System.out.println("Viewfinder Type: " + viewfinderType);
+        System.out.println("Item Dimensions: " + itemDimensions);
+        System.out.println("Folded Size: " + foldedSize);
+        System.out.println("Item Weight: " + itemWeight + " Pounds");
+        System.out.println("Max Height: " + maxHeight + " Inches");
+        System.out.println("Min Height: " + minHeight + " Inches");
+        System.out.println("Price: " + price);
+    }
+}

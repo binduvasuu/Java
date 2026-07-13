@@ -1,0 +1,54 @@
+class ArtisticDecorative {
+    public static void main(String args[]) {
+        String colour = "Silver";
+        String style = "Modern Abstract Minimalist";
+        String occasion = "Decorative";
+        String shape = "Novelty";
+        String brand = "The Artment your artistic apartment";
+        String countryOfOrigin = "India";
+        String manufacturer = "The Artment Your Artistic Apartment";
+        String modelNumber = "Thinker Accent Showpiece Silver";
+        String manufacturerPartNumber = "Thinker Accent Showpiece";
+        String itemTypeName = "Abstract Thought Thinker Accent";
+        String packerContact = "Zipped Solutions Pvt. Ltd., Ghitorni, New Delhi - 110030";
+        String enclosureMaterial = "Resin";
+        String finishType = "Glossy";
+        String asin = "B0DC3SSTNW";
+        String customerReviews = "4.3 out of 5 stars (13 reviews)";
+        int numberOfPieces = 3;
+        int numberOfItems = 3;
+        int unitCount = 3;
+        int itemWeight = 50;
+        int bestSellerRankHomeKitchen = 173730;
+        int bestSellerRankCollectibles = 3013;
+        double itemLength = 8;
+        double itemWidth = 5;
+        double itemHeight = 12;
+        boolean batteriesRequired = false;
+        int price = 799;
+        System.out.println("Brand: " + brand);
+        System.out.println("Country of Origin: " + countryOfOrigin);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Model Number: " + modelNumber);
+        System.out.println("Manufacturer Part Number: " + manufacturerPartNumber);
+        System.out.println("Item Type Name: " + itemTypeName);
+        System.out.println("Colour: " + colour);
+        System.out.println("Style: " + style);
+        System.out.println("Occasion: " + occasion);
+        System.out.println("Shape: " + shape);
+        System.out.println("Enclosure Material: " + enclosureMaterial);
+        System.out.println("Finish Type: " + finishType);
+        System.out.println("Item Dimensions (L x W x H): " + itemLength + " x " + itemWidth + " x " + itemHeight + " cm");
+        System.out.println("Item Weight: " + itemWeight + " grams");
+        System.out.println("Number of Pieces: " + numberOfPieces);
+        System.out.println("Number of Items: " + numberOfItems);
+        System.out.println("Unit Count: " + unitCount);
+        System.out.println("ASIN: " + asin);
+        System.out.println("Customer Reviews: " + customerReviews);
+        System.out.println("Batteries Required: " + batteriesRequired);
+        System.out.println("Packer Contact: " + packerContact);
+        System.out.println("Best Seller Rank (Home & Kitchen): #" + bestSellerRankHomeKitchen);
+        System.out.println("Best Seller Rank (Collectibles): #" + bestSellerRankCollectibles);
+        System.out.println("Price: " + price);
+    }
+}

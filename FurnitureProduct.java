@@ -1,0 +1,54 @@
+class FurnitureProduct {
+    public static void main(String args[]) {
+        String topMaterial = "Fabric";
+        String baseMaterial = "Fabric";
+        String frameMaterial = "Boucle";
+        String productCare = "Wipe with Damp Cloth";
+        String woodType = "Boucle";
+        String colour = "White";
+        String style = "Casual";
+        String assemblyRequired = "No";
+        String baseType = "Upholstered";
+        String brand = "INFLUENCE FURNITURE";
+        String manufacturer = "INFLUENCE FURNITURE";
+        String modelNumber = "ZDBVZA13";
+        String manufacturerPartNumber = "ZDBVZA13";
+        String productFeatures = "Easy to maintain upholstery with stable base for safe and comfortable use, Modern and stylish design that complements contemporary home interiors, Premium upholstery with soft-touch fabric offering superior comfort and elegant appearance, Strong, durable construction ensures long-lasting support and everyday usability, Versatile furniture suitable for bedroom, living room, lounge, or seating areas";
+        String includedComponents = "FURNITURE";
+        String importerContact = "INFLUENCE FURNITURE";
+        String packerContact = "INFLUENCE FURNITURE";
+        String countryOfOrigin = "India";
+        String manufacturerContact = "INFLUENCE FURNITURE";
+        String bedType = "FURNITURE";
+        String asin = "B0GHFWZKN7";
+        int unitCount = 1;
+        int price = 6200;
+        int bestSellerRankHomeKitchen = 918251;
+        int bestSellerRankKidsStools = 129;
+        System.out.println("Top Material: " + topMaterial);
+        System.out.println("Base Material: " + baseMaterial);
+        System.out.println("Frame Material: " + frameMaterial);
+        System.out.println("Product Care Instructions: " + productCare);
+        System.out.println("Wood Type: " + woodType);
+        System.out.println("Colour: " + colour);
+        System.out.println("Style: " + style);
+        System.out.println("Is Assembly Required?: " + assemblyRequired);
+        System.out.println("Base Type: " + baseType);
+        System.out.println("Brand: " + brand);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Model Number: " + modelNumber);
+        System.out.println("Manufacturer Part Number: " + manufacturerPartNumber);
+        System.out.println(productFeatures);
+        System.out.println("Unit Count: " + unitCount);
+        System.out.println("Included Components: " + includedComponents);
+        System.out.println("Importer Contact: " + importerContact);
+        System.out.println("Packer Contact: " + packerContact);
+        System.out.println("Manufacturer Contact: " + manufacturerContact);
+        System.out.println("Country of Origin: " + countryOfOrigin);
+        System.out.println("Bed Type: " + bedType);
+        System.out.println("ASIN: " + asin);
+        System.out.println("Best Seller Rank (Home & Kitchen): " + bestSellerRankHomeKitchen);
+        System.out.println("Best Seller Rank (Kids' Stools): " + bestSellerRankKidsStools);
+        System.out.println("Price: " + price);
+    }
+}

@@ -1,0 +1,56 @@
+class StorageBoxCotton {
+    public static void main(String args[]) {
+        String brandName = "Generic";
+        String manufacturer = "ANSARI DECOR";
+        String manufacturerPartNumber = "920";
+        String modelNumber = "Rk.1";
+        String countryOfPublication = "India";
+        String packerContact = "RUGSZONE";
+        String importerContact = "Real is real your choice is your your think is your quality is the most important for sweat home";
+        String itemTypeName = "Basket";
+        String includedComponents = "Basket";
+        String asin = "B0B36NYRR3";
+        String colour = "White & Black";
+        String shape = "Round";
+        String styleName = "Classic";
+        String materialType = "Cotton jute";
+        String finishType = "Natural";
+        String handleMaterial = "Jute";
+        String itemDimensions = "12D x 10W x 5H Centimeters";
+        int itemWeight = 499;
+        int numberOfPieces = 1;
+        int unitCount = 1;
+        boolean withLid = false;
+        String closureType = "Basket";
+        String additionalFeatures = "Lightweight";
+        int bestSellerRankHomeKitchen = 86428;
+        int bestSellerRankShelfBaskets = 358;
+        int price = 350;
+        System.out.println("Brand Name: " + brandName);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Manufacturer Part Number: " + manufacturerPartNumber);
+        System.out.println("Model Number: " + modelNumber);
+        System.out.println("Country of Publication: " + countryOfPublication);
+        System.out.println("Packer Contact: " + packerContact);
+        System.out.println("Importer Contact: " + importerContact);
+        System.out.println("Item Type Name: " + itemTypeName);
+        System.out.println("Included Components: " + includedComponents);
+        System.out.println("ASIN: " + asin);
+        System.out.println("Colour: " + colour);
+        System.out.println("Shape: " + shape);
+        System.out.println("Style Name: " + styleName);
+        System.out.println("Material Type: " + materialType);
+        System.out.println("Finish Type: " + finishType);
+        System.out.println("Handle Material: " + handleMaterial);
+        System.out.println("Item Dimensions: " + itemDimensions);
+        System.out.println("Item Weight: " + itemWeight + " Grams");
+        System.out.println("Number of Pieces: " + numberOfPieces);
+        System.out.println("Unit Count: " + unitCount);
+        System.out.println("With Lid: " + withLid);
+        System.out.println("Closure Type: " + closureType);
+        System.out.println("Additional Features: " + additionalFeatures);
+        System.out.println("Best Seller Rank (Home & Kitchen): #" + bestSellerRankHomeKitchen);
+        System.out.println("Best Seller Rank (Shelf Baskets): #" + bestSellerRankShelfBaskets);
+        System.out.println("Price: ₹" + price);
+    }
+}
